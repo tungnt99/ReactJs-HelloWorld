@@ -1,0 +1,12 @@
+.cart-item .cart-item-body img {
+    height: 250px;
+  }
+  
+  .cart-item .cart-item-body .card-body .card-title {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+  }
+  
