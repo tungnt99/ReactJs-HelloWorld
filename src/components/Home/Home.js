@@ -2,7 +2,7 @@ import logo from "../../logo.svg";
 import "../../App.css";
 import MyComponent from "../Example/MyComponent";
 import ValidateForm from "../Example/ValidateForm";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import React from "react";
 import ChildComponent from "./ChildComponent";
@@ -33,9 +33,7 @@ export default class Home extends React.Component{
     <>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      
 
         <MyComponent />
         <ValidateForm/>

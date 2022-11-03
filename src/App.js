@@ -7,6 +7,7 @@ import Home from './components/Home/Home';
 import Redirect from './view/Redirect/Redirect';
 import ListProducts from './view/Products/ListProducts';
 import ProductDetail from './view/Products/ProductDetail';
+import Redux from './redux/Redux';
 import {
   BrowserRouter as Router,
   Routes,
@@ -26,6 +27,7 @@ function App() {
               <Route exact path="/redirect" element={<Redirect/>}/>
               <Route exact path="/products" element={<ListProducts/>}/>
               <Route exact path="/products/:id" element={<ProductDetail/>}/>
+              <Route exact path="/redux" element={<Redux/>}/>
 
           </Routes>
 

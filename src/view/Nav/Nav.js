@@ -11,6 +11,8 @@ export default class Nav extends React.Component {
                 <NavLink to="/todo" activeClassName="active" >Todo</NavLink>
                 <NavLink to="/redirect" activeClassName="active" >Redirect</NavLink>
                 <NavLink to="/products" activeClassName="active" >Products</NavLink>
+                <NavLink to="/redux" activeClassName="active" >Redux</NavLink>
+
                 
 
             </div>
