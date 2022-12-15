@@ -43,7 +43,6 @@ export default class ValidateForm extends React.Component {
         let {firstName} = this.state
         let {lastName} = this.state
         let {showJobs} = this.state
-        let check = showJobs === true ? 'showJobs = true' : 'showJobs = false';
         return(
             <>
                 {showJobs === false ?
